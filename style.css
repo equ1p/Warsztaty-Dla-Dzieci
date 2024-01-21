@@ -1,0 +1,199 @@
+html{
+	font-family: 'Alata';
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 0.5em 3em 0.5em 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.header_title {
+	font-size: 24px;
+  	font-weight: bold;
+	align-items: center;
+	display: flex;
+}
+
+.header_title img {
+	height: 2.2em;
+	width: 2.2em;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em 3em 0.5em 0.5em;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #FFD700;
+}
+
+
+#main_image {
+	position: relative;
+	z-index: 1;
+	background-image: url(images/b2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+#about_us {
+	max-width: 100%;
+	height: 95vh;
+	padding: 1em 17em;
+    margin: 0 auto;
+    text-align: left;
+	background: linear-gradient(to bottom, #f9dc38, #ffffff);
+	font-size: 1.2em;
+}
+
+#about_us h2 {
+	text-align: center;
+}
+
+#contact_page {
+	background: linear-gradient(to bottom, #66B2FF, #FFF );
+	padding-bottom:50px ;
+}
+
+#contact_page h2 {
+	text-align: center;
+}
+
+.contact-form {
+	background-color: #3855C7;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 60em; /* Задайте бажану ширину форми */
+	margin: 50px auto 0; /* Центрування форми на сторінці */
+}
+
+.contact-form h2 {
+	text-align: center;
+}
+
+.contact-form form {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+
+.form-row {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-row label {
+	margin-bottom: 8px;
+}
+
+.form-row input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.contact-form button {
+	grid-column: span 2; /* Розтягує кнопку на 2 колонки */
+	padding: 10px;
+	background-color: #007BFF;
+	color: #FFF;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.contact-form button:hover {
+	background-color: #0056b3;
+}
+
+.form-row textarea {
+	padding: 10px;
+  	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	height: 5em;
+}
+
+.contact_text {
+	width: 99%;
+	margin: 0;
+	text-align: justify;
+	padding: 0.5em;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-promo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #FFD700;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #FFD700;
+}
+
+.social-media-icons {
+	width: 2em;
+	height: 2em;
+}

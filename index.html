@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang = "pl">
+	<head>
+		<meta charset="UTF-8">
+		<link rel = "stylesheet" href = "style.css">
+		<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+	</head>
+	<body>
+		<header>
+			<!-- <img src="images/logo.png" id="logo"> -->
+  			<div class="header_title">
+				<img src="images/logo.png">
+				Szczęśliwe Dziecko - Warsztaty Dla Dzieci
+			</div>
+		 	<nav>
+		 		<ul>
+		      		<li><a href="#main_image">Strona Główna</a></li>
+		      		<li><a href="#about_us">O nas</a></li>
+		      		<li><a href="#contact_page">Kontakt</a></li>
+		    	</ul>
+			</nav>
+		</header>
+
+
+		<div id = "main_image">
+		</div>
+
+
+		<div id = "about_us">
+			<h2>O nas</h2>
+			<p>Jesteśmy wyjątkową i twórczą przestrzenią rozwoju i rozrywki dla dzieci w wieku od 3 do 12 lat. W „Szczęśliwym Dziecku” tworzymy atmosferę, w której każde małe serce może rozkwitnąć i odkryć swoje talenty poprzez ciekawe i ekscytujące zajęcia.</p>
+			
+			<h2>Nasza misja</h2>
+			<p>Naszym głównym celem jest zapewnienie Twojemu dziecku radości nauki i kreatywności. Wierzymy, że każde dziecko ma niepowtarzalny potencjał, który można odkryć poprzez zabawę, eksperymentowanie i samopoznanie.</p>
+			
+			<h2>Nasze programy</h2>
+			<ul>
+				<li><b>Kółka rozwijające się:</b> Nasze warsztaty promują rozwój różnych umiejętności, od kreatywności po myślenie naukowe.</li>
+				<li><b>Warsztaty:</b> Każdy warsztat jest okazją do wyrażenia siebie poprzez sztukę, rękodzieło i inne formy twórcze.</li>
+				<li>Zajęcia poznawcze: Dzieci eksplorują otaczający je świat poprzez ciekawe zajęcia naukowe i eksperymentalne.</li>
+			</ul>
+			
+			<h2>Nasze nauczyciele</h2>
+			<p>Nasz zespół tworzą profesjonalni i kreatywni nauczyciele, którzy kochają swoją pracę i chętnie dzielą się swoim doświadczeniem i wiedzą ze swoimi dziećmi.</p>
+
+			<h2>Ważne dla nas</h2>
+			<p>Otwierając drzwi „Szczęśliwego Dziecka”, wybierasz nie tylko wysokiej jakości zajęcia, ale także atmosferę przyjaźni, kreatywności i nieograniczonych możliwości dla Twojego dziecka.</p>
+		</div>
+
+
+		<div id = "contact_page">
+			<div class="contact_text">
+				<h2>Zachęcamy do kontaktu!</h2>
+			  	<p>Jesteśmy wdzięczni za zainteresowanie i możliwość podzielenia się tym wyjątkowym doświadczeniem ze swoim dzieckiem.</p>
+				<p>Wypełnij poniższy formularz, abyśmy mogli dostarczyć Ci wszystkich potrzebnych informacji i przygotować się na ekscytujące i twórcze zajęcia dla Twojego maleństwa. Każdy podany przez Państwa szczegół pomoże nam stworzyć najlepszy warsztat odpowiadający zainteresowaniom i potrzebom Państwa dziecka.</p>
+				<p>Wierzymy w siłę uczenia się i rozwoju poprzez kreatywność i nie możemy się doczekać, aby zapewnić Twojemu dziecku niezapomniane wrażenia!</p>
+				<p>Dziękujemy za wybranie naszych kursów mistrzowskich i zaufanie naszym usługom!</p>
+			</div>
+
+			<div class="contact-form">
+	    		<h2>Skontaktuj się z nami</h2>
+	    		<form action="#" method="post">
+	      			<div class="form-row">
+	        			<label for="child_name">Imię Dziecka:*</label>
+	        			<input type = "text" id = "name" name = "child_name" required>
+	      			</div>
+
+	      			<div class="form-row">
+	        			<label for="child_surname">Nazwisko Dziecka:*</label>
+	        			<input type = "text" id = "surname" name = "child_surname" required>
+	      			</div>
+
+	      			<div class="form-row">
+	        			<label for = "age">Ile lat ma dziecko:*</label>
+						<input type = "text" id = "age" name = "child_age" pattern="\d*" required>
+	      			</div>
+
+	      			<div class="form-row">
+	        			<label for = "occupation">Co dziecko lubi robić:</label>
+						<input type = "text" id = "occupation" name = "child_occupation">
+	      			</div>
+
+	      			<div class="form-row">
+	        			<label for = "phone_number">Numer Telefonu:*</label>
+						<input type = "tel" id = "phone_number" name = "phone_number" required>
+	      			</div>
+
+	      			<div class="form-row">
+	        			<label for = "email">Email:*</label>
+						<input type = "email" id = "email" name = "email" required>
+	      			</div>
+
+	      			<div class = "form-row">
+	        			<label for="additional-message">Wiadomość:*</label>
+	        			<textarea id="additional-message" name="additional-message" required></textarea>
+	      			</div>
+
+	      			<button type="submit">Submit</button>
+	    		</form>
+	  		</div>
+	  	</div>
+
+	  	<footer>
+  			<div class="footer-container">
+    			<div class="footer-promo">© 2024 Szczęśliwe Dziecko to najlepszy wybór</div>
+    			<div class="footer-social">
+      				<a href="#" class="social-icon" target="_blank">
+      					<img src="images/facebook.png" alt="Facebook" class = "social-media-icons">
+      				</a>
+      				<a href="#" class="social-icon" target="_blank">
+      					<img src="images/twitter.png" alt="Twitter" class = "social-media-icons">
+      				</a>
+
+      				<a href="https://www.instagram.com/equ1p.ez/" class="social-icon" target="_blank">
+      					<img src="images/instagram.png" alt="Instagram" class = "social-media-icons">
+      				</a>
+      				<a href="#" class="social-icon" target="_blank">
+      					<img src="images/tiktok.png" alt="TikTok" class = "social-media-icons" >
+      				</a>
+    			</div>
+  			</div>
+		</footer>
+	</body>
+</html>
